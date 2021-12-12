@@ -1,7 +1,6 @@
 FROM openjdk:8-alpine
 
 # Required for starting application up.
-RUN yum -y install make
 RUN yum update
 
 RUN mkdir -p /opt/app
